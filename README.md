@@ -35,7 +35,9 @@ Com isso, somos direcionados para a janela de specs, onde podemos criar a nossa 
 Para os testes vamos utilizar a metodologia TDD que segue um ciclo de três passos principais:
 
 **Red:** Escrever um teste que inicialmente falha.
+
 **Green:** Escrever o código mínimo necessário para passar o teste.
+
 **Refactor:** Refatorar o código para melhorar sua estrutura, mantendo o teste passando.
 
 Começando os testes:
