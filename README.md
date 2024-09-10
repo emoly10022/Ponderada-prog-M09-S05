@@ -18,7 +18,7 @@ Em seguida abrimos o Cypress para configuração inicial com o comando:
 ```
 npx cipreste aberto
 ```
-Então seremos direcionamos para a escolha do tipo de teste, nesse caso, usaremos o end to end:
+Então seremos direcionados para a escolha do tipo de teste, nesse caso, usaremos o end to end:
 
 ![alt text](imgs/e2e.png)
 
@@ -40,7 +40,8 @@ Para os testes vamos utilizar a metodologia TDD que segue um ciclo de três pass
 
 Começando os testes:
 
-**Passo 1: Red** - Escrevendo um Teste que Vai Falhar
+**Passo 1: Red** - Escrevendo um teste que vai falhar.
+
 Vamos criar um teste que espera que exista uma função chamada ```getWikipediaTitle```, que retorne o texto do título da página da Wikipedia. Como ainda não implementamos essa função, o teste deve falhar.
 
 ```javascript
@@ -59,7 +60,8 @@ describe('Wikipedia function example - Emily Dickinson', () => {
 
 ![alt text](imgs/teste-fail.png)
 
-**Passo 2: Green** - Implementando a Função Básica para Passar o Teste
+**Passo 2: Green** - Implementando a função básica para passar o teste.
+
 Agora, vamos implementar uma função básica chamada  ```getWikipediaTitle``` que simplesmente retorna o texto correto. Isso fará com que o teste passe.
 
 ```javascript
@@ -81,7 +83,8 @@ describe('Wikipedia function example - Emily Dickinson', () => {
 
 ![alt text](imgs/teste-sucess.png)
 
-**Passo 3: Refactor** - Melhorando o Código
+**Passo 3: Refactor** - Melhorando o código.
+
 Agora que o teste está passando, podemos refatorar a função para torná-la mais dinâmica, por exemplo, para que ela realmente extraia o título da página ao invés de retornar um valor fixo. No entanto, isso já é um avanço para a refatoração e melhorias subsequentes.
 
 ```javascript
