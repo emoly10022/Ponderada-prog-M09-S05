@@ -5,7 +5,7 @@ Nesta atividade, o objetivo era seguir o tutorial How to Test React Using Cypres
 
 ### Tutorial para Setup
 
-Seguinte o tutorial do link:
+Seguindo o tutorial do link:
 https://www.browserstack.com/guide/how-to-test-react-using-cypress
 
 Começamos com a instalação do Cypress usando o comando:
